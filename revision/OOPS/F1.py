@@ -4,8 +4,9 @@ class student:
        pass
 
 
-
-
+    @staticmethod
+    def yo():
+        print("YO!")
 
      
     def __init__(self, name, age):  
@@ -17,6 +18,7 @@ class student:
         
 s1 = student("Amey", 99)
 print(s1.name, s1 .age)
+student.yo()
 
 
 
