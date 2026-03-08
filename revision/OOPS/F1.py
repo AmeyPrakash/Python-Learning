@@ -10,8 +10,8 @@ class student:
      
     def __init__(self, name, age):  
 
-        #parameterizedconstructor
-        
+        #parameterized constructor
+
         self.name = name
         self.age = age
         
