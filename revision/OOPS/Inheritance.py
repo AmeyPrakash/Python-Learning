@@ -41,8 +41,10 @@ class electric_car(car):  #child class
     def __init__(self, name):
         self.name = name
 
-car1 = electric_car("Tesla")
-car2 = electric_car("Nissan Leaf")
 
-print(car1.start())  # Output: Tesla        
-print(car2.color)  # Output: Azure
+class hybrid_car(electric_car):  #child class
+    def __init__(self, type):
+        self.type = type
+
+car1 = hybrid_car("Petrol")
+car1.start()  # Inherited method from car class
